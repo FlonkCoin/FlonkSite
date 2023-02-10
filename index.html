@@ -72,6 +72,61 @@
             }
 
 
+            @media only screen and (max-width: 749px) {
+                 body {
+                    background-color: white;
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                 }
+
+                 h1{
+                font-size: 4em;
+            }
+            .top-section img{
+                padding-left: 0;
+                margin-left: 0;
+            width:100vw; /*width of your image*/
+            height:auto; /*height of your image*/
+            }
+
+            
+            #info-section{
+                max-width:90vw;
+                height:auto;
+                text-align: center;
+                margin-left: 0;
+                padding-left: 5vw;
+                margin-top: 35vh;
+                padding-bottom: 20vh;
+                inline-size: 90vw; 
+                overflow: hidden;
+            }
+
+            #triangle-down {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 30px solid orange;
+
+            margin-left: 45vw;
+            margin-top: 88vh;
+            transition-property: font-size;
+            animation: MoveUpDown 1s linear infinite;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            visibility: hidden;
+            }
+
+            #info-section img{
+                max-width: 20vw;
+                height: auto;
+            }
+            }
+
+
         </style>
     </head>
 
@@ -91,17 +146,13 @@
   $('.image-link2').magnificPopup({type:'image'});
 });
 
-
-
-            </script>
+</script>
 
             
 
             <div id="info-section">
                 <h1>FLONK</h1>
-                <p>For the people, by the people and airdropped to the people.<br>
-                    Address: 3VJyo1n5EkBGh6uEcnKA1Bf8EgVnvrK3XjcDZDDXsPLF
-                </p>
+                <p>For the people, by the people and airdropped to the people</p>
 
                     <a href="https://twitter.com/FlonkCoin"><img src="twitter.png"></a>
                     <a href="https://solscan.io/token/3VJyo1n5EkBGh6uEcnKA1Bf8EgVnvrK3XjcDZDDXsPLF"><img src="solscan.png"></a>
